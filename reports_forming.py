@@ -12,7 +12,7 @@ from docxtpl import DocxTemplate
 observBuilding1 = 'осмотр несущих конструкций, свайного основания, стеновых покрытий, дверных и'
 observBuilding2 = 'оконных проемов.'
 observMacht = 'осмотр несущих конструкций, свайного основания.'
-damageList = ('ДП2001490','ДП2001510','ДП2001406','ДП2001403','ДП2001401','АА8639','ДП2001547','ДП2001548','ДП2001549','ДП2001550')
+damageList = ('ДП2001490','ДП2001510','ДП2001406','ДП2001403','ДП2001401','АА8639','ДП2001547','ДП2001548','ДП2001549','ДП2001550','АА0011240','ДП2001389')
 
 def doc_creating():
 
@@ -89,7 +89,7 @@ def doc_creating():
         elif ('КЭ' in unit) or ('ПР' in unit):
             date = '17 ноября 2025г.'
         elif ('КОС' in unit) or ('ППС' in unit):
-            date = '11 ноября 2025г.'
+            date = '17 ноября 2025г.'
         elif ('КС' in unit) or ('ДКС' in unit):
             date = '18 ноября 2025г.'
         elif ('УДК' in unit) or ('УКПГ' in unit):
@@ -97,15 +97,15 @@ def doc_creating():
         elif ('УПН' in unit) or ('СОВ' in unit):
             date = '18 ноября 2025г.'
         elif ('ООВЭиОЭН' in unit) or ('№ 7' in unit):
-            date = '19 ноября 2025г.'
+            date = '18 ноября 2025г.'
         elif ('№11' in unit) or ('№ 11' in unit) or ('№3' in unit)  or ('№12' in unit)  or ('№ 12' in unit):
-            date = '20 ноября 2025г.'
+            date = '19 ноября 2025г.'
         elif ('№4' in unit) or ('№ 4' in unit)  or ('№15' in unit) or ('№ 15' in unit):
-            date = '20 ноября 2025г.'
+            date = '19 ноября 2025г.'
         elif ('№2' in unit) or ('№ 2' in unit)  or ('№5' in unit) or ('№ 5' in unit)  or ('№71' in unit) or ('№ 71' in unit):
-            date = '20 ноября 2025г.'
+            date = '19 ноября 2025г.'
         elif ('№7' in unit) or ('№ 7' in unit) :
-            date = '20 ноября 2025г.'
+            date = '19 ноября 2025г.'
 
 
 
